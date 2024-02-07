@@ -1,0 +1,77 @@
+/* Base styles - Mobile first design */
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    background-color: rgb(207, 226, 233);
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Card styles */
+.card{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px; 
+    padding: 1em;                 /*Space inside the card  */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    max-width: 375px;
+    margin: 0 1em; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+/* QR Code image styles */
+.qr-code{
+    max-width: 100%;
+    border-radius: 20px;
+
+}
+
+/* Text styles  */
+ .qr-text {
+    color: hsl(220, 15%, 55%);
+    margin-top: 0.5em; 
+    margin-bottom: 0.5em; 
+    font-size: 1.1em;  /*Base font size   */
+    line-height: 1.5; 
+ }
+.qr-text-title{
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.5;
+    color: hsl(218, 40%, 22%);
+}
+
+.attribution {
+    font-size: 0.7em;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: hsl(220, 15%, 55%); 
+    background-color: hsl(0, 0%, 100%); 
+    padding: 1em; 
+  }
+   
+   .attribution a {
+    color: hsl(218, 44%, 22%); 
+    text-decoration: none;
+  }
+  
+  .attribution a:hover {
+    text-decoration: underline;
+  }
+
+  /*--------------------------*/
+  /* Desktop specific styles */
+  /*------------------------*/
+
+@media (min-width: 1440px) {
+
+    .attribution {
+        font-size: 0.8em;
+    }
+ }
